@@ -1,0 +1,166 @@
+.leftside{
+    background-color: #f0ebeb;
+    width:340px;
+    height:105vh;
+}
+.vishnuimg{
+    height:160px;
+    width:160px;
+    margin-left:80px;
+    margin-top:30px;
+    border-radius: 200px;
+}
+.buttons{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 80px;
+}
+.buttons:hover
+{
+    color:#03befc;
+    text-decoration: underline;
+}
+.fa-twitter{
+    color:black;
+    margin:17px;
+}
+.fa-twitter:hover{
+    color:#03befc;
+}
+.fa-facebook-f{
+    color:black;
+    margin:17px;
+    margin-left:19px;
+}
+.fa-facebook-f:hover{
+    color:#03befc;
+}
+.fa-linkedin-in{
+    color:black;
+    margin:17px;
+    margin-left:19px;
+}
+.fa-linkedin-in:hover{
+    color:#03befc;
+}
+.fa-instagram{
+    color:black;
+    margin:17px;
+}
+.fa-instagram:hover{
+    color:#03befc;
+}
+.iconbox{
+    background-color: white;
+    border-radius: 100px;
+    border-style:solid 4px black;
+    width:50px;
+    height:50px;
+    align-items: center;
+    margin:5px;
+}
+.intro{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+.about{
+    margin-left: 30px;
+    margin-top:20px;
+}
+.hello{
+    width:500px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    background-color: yellow;
+    padding:20px;
+    border-radius: 20px;
+    height:30vh;
+    margin-top:40px;
+}
+.menist{
+    width:600px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    background-color:lightgreen;
+    padding:20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left:60px;
+}
+.badminton{
+    width:600px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    background-color:orange;
+    padding:20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.vishnu5{
+    width:200px;
+    height:40vh;
+    border-radius: 20px;
+    margin-top:none;
+}
+.vishnu4{
+    width:200px;
+    height:40vh;
+    border-radius: 20px;
+    margin-top:none;
+    border:2px solid black;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.vishnu6{
+    width:200px;
+    height:37vh;
+    border-radius: 20px;
+    margin-top:none;
+    margin-left: 60px;
+    margin-top:15px;
+    border:2px solid black;
+    box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.yourcode{
+    font-weight:bolder;
+    width:230px;
+    margin-top:50px;
+    margin-left:60px;
+    font-size: 25px;
+}
+.skills{
+    margin-left: 30px;
+    margin-top:20px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left:60px;
+    margin-top:20px;
+    width:750px;
+}
+.skillbutton{
+    border-radius: 100px;
+    border:none;
+    color:white;
+    background-color: #03befc;
+    font-size: 40px;
+    margin-left:575px;
+}
+.pythonskills{
+    color:white;
+    margin-top:15px;
+    margin-left: 10px;
+}
+.education{
+    margin-left: 30px;
+    margin-top:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.educationclass{
+    margin-left:90px;
+}
+.contactfonts{
+    font-size:40px;
+    margin:20px;
+    color:black;
+}
+    

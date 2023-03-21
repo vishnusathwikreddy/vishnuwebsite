@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8d7e766182.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="vishnu.css"/>
+    <script src="https://kit.fontawesome.com/8d7e766182.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <script src="vishnu.js"></script>
+</head>
+<body>
+    <div class="d-flex flex-row">
+        <div class="leftside">
+            <img src="vishnu.jpeg" class="vishnuimg"/>
+            <h2 style="margin-left:30px;">𝗩𝗜𝗦𝗛𝗡𝗨 𝗦𝗔𝗧𝗛𝗪𝗜𝗞</h2>
+            <p style="margin-left:50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Student at IIIT Kottayam</p>
+            <a class="buttons" href="index.html">HOME</a>
+            <br/><br/>
+            <a class="buttons" href="about.html">ABOUT ME</a><br/><br/>
+            <a class="buttons" href="skills.html" style="color:red;">SKILLS</a><br/><br/>
+            <a class="buttons" href="education.html">EDUCATION</a><br/><br/>
+            <a class="buttons" href="contact.html">CONTACT</a>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="iconbox" style="margin-top:20px;">
+                    <a href="https://www.linkedin.com/in/chintala-vishnu-sathwik-reddy-14117a257/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="iconbox" style="margin-top:20px;">
+                    <a href="https://www.facebook.com/vishnusathvik.chintala" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <div class="iconbox" style="margin-top:20px;">
+                    <a href="https://twitter.com/VishnuSathvik1" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="iconbox" style="margin-top:20px;">
+                    <a href="https://www.instagram.com/thalivar_2k4/" TARGET="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <h1>My Technical Skills</h1>
+            <div class="card">
+                <div class="d-flex flex-column">
+                    <div style="background-color:#03befc;" class="d-flex flex-row">
+                        <h3 class="pythonskills">Python</h3>
+                        <button class="skillbutton" onclick="pythonbutton()">+</button>
+                    </div>
+                    <div>
+                        <p id="pythonmatter"></p>
+                        <img src="https://i.pinimg.com/originals/f5/05/24/f50524ee5f161f437400aaf215c9e12f.jpg"id="pythoncertificate" style="width:10px;height:10px;"/>
+                    </div>        
+                </div>
+            </div>
+            <div class="card">
+                <div class="d-flex flex-column">
+                    <div style="background-color:#03befc;" class="d-flex flex-row">
+                        <h3 class="pythonskills">Pandas</h3>
+                        <button class="skillbutton" style="margin-left:572px;" onclick="pandasbutton()">+</button>
+                    </div> 
+                    <div>
+                        <p id="pandasmatter" style="height:0px; width:0px;"></p>
+                        <img src="https://i.pinimg.com/originals/f5/05/24/f50524ee5f161f437400aaf215c9e12f.jpg"id="pandascertificate" style="width:0px;height:0px;"/>
+                    </div>  
+                </div>
+            </div>
+            <div class="card">
+                <div class="d-flex flex-column">
+                    <div style="background-color:#03befc;" class="d-flex flex-row">
+                        <h3 class="pythonskills">C-language</h3>
+                        <button class="skillbutton" style="margin-left:520px;" onclick="cbutton()">+</button>
+                    </div>
+                    <div>
+                        <p id="cmatter"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div style="background-color:#03befc;" class="d-flex flex-row">
+                        <h3 class="pythonskills">C++</h3>
+                        <button class="skillbutton" style="margin-left:610px;" onclick="cppbutton()">+</button>
+                    </div> 
+                    <div>
+                        <p id="cppmatter"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="d-flex flex-column">
+                    <div style="background-color:#03befc;" class="d-flex flex-row">
+                        <h3 class="pythonskills">Web Development</h3>
+                        <button class="skillbutton" style="margin-left:440px;" onclick="webbutton()" >+</button>
+                    </div> 
+                    <div>
+                        <p id="webmatter"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="d-flex flex-column">
+                    <div style="background-color:#03befc;" class="d-flex flex-row">
+                        <h3 class="pythonskills">My SQL</h3>
+                        <button class="skillbutton" style="margin-left:570px;" onclick="sqlbutton()">+</button>
+                    </div> 
+                    <div>
+                        <p id="sqlmatter"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <script>
+        let python=document.getElementById("pythonmatter");
+        let pythonimage=document.getElementById("pythoncertificate");
+        let pythonnumber=0;
+        function pythonbutton() {
+            if (pythonnumber == 0) {
+              python.textContent = "As a computer science student, firstly I found python as an easy language, now i became an expert in python programming.I also use python as a programming language for competitive programming. Till date I have solved about 200 problems on python";
+              python.style.width = "750px";
+              python.style.padding = "20px";
+              python.style.fontFamily = "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+              pythonimage.src="python.jpeg";
+              pythonimage.style.width="450px";
+              pythonimage.style.height="200px";
+              pythonimage.style.paddingLeft="180px";
+              pythonimage.style.marginTop="5px";
+              pythonnumber = 1;
+            } else {
+              python.textContent = "";
+              python.style.width = "0px";
+              python.style.padding = "0px";
+              python.style.fontFamily = "";
+              python.style.height = "0px";
+              pythonimage.src="https://i.pinimg.com/originals/f5/05/24/f50524ee5f161f437400aaf215c9e12f.jpg"
+              pythonimage.style.width="0px";
+              pythonimage.style.height="0px";
+              pythonnumber = 0;
+            }
+          }
+        let pandasnumber=0;
+        let pandas=document.getElementById("pandasmatter");
+        let pandasimage=document.getElementById("pandascertificate");
+        function pandasbutton() {
+            if (pandasnumber == 0) {
+              pandas.textContent = "I am familiar with Pandas, a popular data analysis library in Python, and have a basic understanding of its functionality, including how to read, manipulate, and analyze data. I have even earned a certificate from Kaggle in Pandas, which has helped me solidify my knowledge and skills in this area.While I do not yet have extensive experience with projects using Pandas, I am eager to gain more hands-on experience and apply my knowledge in practical settings.;"
+              pandas.style.width = "750px";
+              pandas.style.padding = "20px";
+              pandas.style.fontFamily = "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+              pandasimage.src="pandas.jpeg";
+              pandasimage.style.width="450px";
+              pandasimage.style.height="200px";
+              pandasimage.style.paddingLeft="180px";
+              pandasimage.style.marginTop="70px";
+              pandasnumber = 1;
+            } else {
+              pandas.textContent = "";
+              pandas.style.width = "0px";
+              pandas.style.padding = "0px";
+              pandas.style.fontFamily = "";
+              pandasimage.src="https://i.pinimg.com/originals/f5/05/24/f50524ee5f161f437400aaf215c9e12f.jpg";
+              pandasimage.style.width="0px";
+              pandasimage.style.height="0px";
+              pandasimage.style.paddingLeft="0px";
+              pandasimage.style.marginTop="0px";
+              pandasnumber = 0;
+            }
+          }
+        let c=document.getElementById("cmatter");
+        let cnumber=0;
+        function cbutton() {
+            if (cnumber == 0) {
+              c.textContent = "In my first semester of college, I learned C language, which provided me with a strong foundation in programming concepts such as data types, functions, arrays, loops, and conditional statements. This experience helped me develop problem-solving skills and the ability to write efficient, readable, and modular code.";
+              c.style.width = "750px";
+              c.style.padding = "20px";
+              c.style.fontFamily = "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+              cnumber = 1;
+            } else {
+              c.textContent = "";
+              c.style.width = "0px";
+              c.style.padding = "0px";
+              c.style.fontFamily = "";
+              cnumber = 0;
+            }
+          }
+          let cpp=document.getElementById("cppmatter");
+          let cppnumber=0;
+          function cppbutton() {
+              if (cppnumber == 0) {
+                cpp.textContent = "In my first semester of college, I learned C language, which provided me with a strong foundation in programming concepts such as data types, functions, arrays, loops, and conditional statements. I later also learned C++, which is an extension of C language and introduced me to the concepts of object-oriented programming.These experiences helped me develop problem-solving skills and the ability to write efficient, readable, and modular code. Since then, I have continued to build on my programming knowledge and have worked with several other programming languages, including Python and JavaScript.";
+                cpp.style.width = "750px";
+                cpp.style.padding = "20px";
+                cpp.style.fontFamily = "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+                cppnumber = 1;
+              } else {
+                cpp.textContent = "";
+                cpp.style.width = "0px";
+                cpp.style.padding = "0px";
+                cpp.style.fontFamily = "";
+                cppnumber = 0;
+              }
+            }
+            let web=document.getElementById("webmatter");
+          let webnumber=0;
+          function webbutton() {
+              if (webnumber == 0) {
+                web.textContent = "I am an intermediate level web developer with experience in HTML, CSS, and JavaScript. I have designed and developed both static and dynamic websites using these technologies. My projects have ranged from simple portfolio sites to more complex e-commerce platforms, and I am always looking for new ways to enhance my skills and improve my projects.My experience with HTML and CSS includes designing layouts, creating user-friendly interfaces, and optimizing website performance.";
+                web.style.width = "750px";
+                web.style.padding = "20px";
+                web.style.fontFamily = "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+                webnumber = 1;
+              } else {
+                web.textContent = "";
+                web.style.width = "0px";
+                web.style.padding = "0px";
+                web.style.fontFamily = "";
+                webnumber = 0;
+              }
+            }
+            let sql=document.getElementById("sqlmatter");
+            let sqlnumber=0;
+            function sqlbutton() {
+                if (sqlnumber == 0) {
+                  sql.textContent = "I am proficient in SQL (Structured Query Language), which is a fundamental language for managing and manipulating relational databases. I have a strong understanding of SQL concepts such as creating tables, inserting data, querying data, and updating or deleting data in databases.";
+                  sql.style.width = "750px";
+                  sql.style.padding = "20px";
+                  sql.style.fontFamily = "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+                  sqlnumber = 1;
+                } else {
+                  sql.textContent = "";
+                  sql.style.width = "0px";
+                  sql.style.padding = "0px";
+                  sql.style.fontFamily = "";
+                  sqlnumber = 0;
+                }
+            }
+        let pyimage=document.createElement("pythincertificate");
+        pyimg.src="python.jpeg";
+        python.appendChild("pythincertificate");
+    </script>
+</body>
+</html>
