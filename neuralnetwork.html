@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Understanding basic Neural Network</title>
@@ -78,7 +79,8 @@
     <p> Finding the derivation of activation functions is not that hard as it seems to be. In our neural network, derivation of the relu function  can be taken from the slope of the graph i.e.., if value>0 slope is 1 or else it is 0.</p>
     <h3>Pseudo code for our neural network.</h3>
     <div class="code">
-        <pre>
+        <div>
+            <pre style="color: white;">
 import pandas as pd
 import numpy as np
 
@@ -152,11 +154,13 @@ def gradient_descent(x,y,iterations,alpha):
     
 w1,b1,w2,b2=gradient_descent(x_train,y_train,100,0.1)
         </pre>
+        </div>
+        
     </div>
     <p style="margin-top:10%">published on: Monday, 15-jan-2024 , 11:53:07 AM</p>
-        <div style="margin-left:60%">
+        <div>
             <textarea placeholder="First click on submit button then you will be redirected to mail, then mail me your review." cols="50" rows="10"></textarea>
-            <div style="margin-left:69%;">
+            <div style="">
                 <a href="mailto: vishnusathvik100@gmail.com" target="_blank"><button>Submit</button></a>
                 <a href="blog.html"><button>Back</button></a>
             </div>
@@ -191,13 +195,15 @@ w1,b1,w2,b2=gradient_descent(x_train,y_train,100,0.1)
     .code{
         background-color: black;
         height: 500px;
-        width: 500px;
-        color: white;
+        max-width: 500px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 10px;
         box-shadow: 10px 10px 10px grey;
-        margin-left: 20%;
         margin-bottom: 30px;
         padding: 10px;
         overflow-y: auto;
+        overflow-x: scroll;
     }
 </style>
